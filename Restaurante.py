@@ -5,7 +5,7 @@ menu = [
     ["Gaseosa", "Bebida", 5000],
     ["Jugo Natural", "Bebida", 8000],
     ["Helado", "Postre", 12000],
-    ["Pasta", "Comida", 28000]
+    ["Salchipapa", "Comida", 28000]
 ]
 
 # Función para calcular el precio final

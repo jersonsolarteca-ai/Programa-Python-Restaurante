@@ -36,6 +36,7 @@ def calcular_precio_final(producto, categoria_objetivo, umbral):
 
 
 
+
 def mostrar_menu(menu, categoria_objetivo, umbral):
     """Imprime de forma ordenada la información de cada producto."""
     print("===============================================")
@@ -50,16 +51,16 @@ def mostrar_menu(menu, categoria_objetivo, umbral):
 
         print(f"Producto: {nombre}")
         print(f"Categoría: {categoria}")
-        print(f"Precio base: ${precio}")
+        print(f"Precio base: ${precio:.0f}")
 
 
         # Mostramos si hubo descuento o no
         if descuento > 0:
-            print(f"Descuento aplicado: 15% (-${descuento})")
+            print(f"Descuento aplicado: 15% (-${descuento:.0f})")
         else:
             print("Sin promoción")
 
-        print(f"Precio final: ${precio_final}")
+        print(f"Precio final: ${precio_final:.0f}")
         print("-----------------------------------------------")
 
 
